@@ -1,5 +1,6 @@
-function saludar() {
+function saludar(event) {
     alert("Hola!");
+    event.stopPropagation();
 }
 
 const div = document.querySelector("div");
